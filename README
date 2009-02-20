@@ -1,0 +1,16 @@
+LOCK-MANY
+
+Strategies for locking large sets of objects.
+
+    Issues and Tasks: http://curlybraces.org/trac/incubator
+    Source: http://github.com/bigeasy/lock-many/tree/master
+    Contact: alan@blogometer.com
+
+PURPOSE
+
+Useful for locking large sets of small objects where full lock objects mihgt be
+too heavy.
+
+MOTIVATION
+
+Needed locking strategy for blocks and objects in databases.
