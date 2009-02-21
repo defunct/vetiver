@@ -63,6 +63,7 @@ public class LatchSet<T>
         this.latches = newLockList(size);
     }
     
+    // TODO Document.
     final List<Set<T>> newLockList(int size)
     {
         List<Set<T>> locks = new ArrayList<Set<T>>(size);
@@ -73,6 +74,7 @@ public class LatchSet<T>
         return locks;
     }
 
+    // TODO Document.
     final static int nearestPrime(int approx, InputStream primes)
     {
         BufferedReader reader = new BufferedReader(new InputStreamReader(primes));
