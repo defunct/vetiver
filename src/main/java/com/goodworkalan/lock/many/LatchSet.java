@@ -46,6 +46,8 @@ import java.util.Set;
  * <p>
  * You can simply make reap threaded. You can run it and it will run to
  * completion, or you can give it its own thread.
+ * <p>
+ * TODO Maybe rename project to vetiver.
  * 
  * @author Alan Gutierrez
  */
